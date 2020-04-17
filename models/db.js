@@ -18,7 +18,7 @@ const sequelize = new Sequelize("database", "username", "password", {
   },
 
   // SQLite only
-  storage: config.get("storage_local_path") + "/database.sqlite",
+  storage: "/sql/database.sqlite",
   logging: sequel_log,
 
   // http://docs.sequelizejs.com/manual/tutorial/querying.html#operators
